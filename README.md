@@ -12,4 +12,13 @@ The latest 2025 HSK (Hanyu Shuiping Kaoshi) vocabulary, characters, and grammar 
 
 ## Levels
 
-HSK 3.0 has 7 levels: 1-6 plus 7-9 (combined). ~11,000 words total.
+| Level | Words | Characters | Grammar |
+|-------|-------|------------|---------|
+| HSK1 | 300 | 246 | 70 |
+| HSK2 | 200 | 225 | 78 |
+| HSK3 | 500 | 434 | 96 |
+| HSK4 | 1,000 | 591 | 95 |
+| HSK5 | 1,600 | 581 | 70 |
+| HSK6 | 1,800 | 563 | 50 |
+| HSK7-9 | 5,600 | 1,648 | 134 |
+| **Total** | **11,000** | **4,288** | **594** |
