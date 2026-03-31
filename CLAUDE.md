@@ -8,13 +8,9 @@ This is a **data-only repository** containing the latest 2025 HSK (Hanyu Shuipin
 
 The 2025 data has changed from the original 2021 HSK 3.0 release. This repo is used to explore the current data and compare against previous versions.
 
-Two HSK standards are represented:
-- **HSK 3.0** (current 2025 official data): primary dataset, 7 levels (1–6 plus 7–9), ~11,000 words total
-- **HSK 2.0** (legacy): reference dataset, 6 levels, ~5,000 words total
-
 ## Data Files
 
-### Main TSV datasets (HSK 3.0, sourced from chinesetest.cn)
+### TSV datasets (HSK 3.0, sourced from chinesetest.cn)
 
 | File | Records | Columns |
 |------|---------|---------|
@@ -26,20 +22,10 @@ Two HSK standards are represented:
 - `grammar.tsv` and `hanzi.tsv` use English-style level IDs (HSK1, HSK2, etc.)
 - In `grammar.tsv`, multi-line `cases` examples are joined with `|`
 
-### Archive TSV files (`archive/`)
+## Comparison Data Sources
 
-Previous HSK word lists (from the MteH corpus) used for comparing against the current official data. Columns: `word`, `variant`, `level`.
-
-| File | Records | Levels |
-|------|---------|--------|
-| `archive/hsk2.0_words.tsv` | 1,200 | 1–4 |
-| `archive/hsk3.0_words.tsv` | 2,245 | 1–3 |
-
-Caveats:
-- **Variant forms**: e.g. `爸爸` with variant `爸`
-- **Parenthetical usage**: `第（第二）` shows contextual usage
-- **Duplicates exist** across levels (e.g., 一下儿 appears in both HSK1 and HSK5)
-- **Grammar structures** mixed in with vocabulary in HSK 2.0 (e.g., `虽然……但是……`)
+For comparing against previous HSK versions, word lists from the MteH corpus are available at:
+- https://github.com/becky82/mteh/tree/master/sources — contains HSK 2.0, HSK 3.0, and other Chinese character/word sources
 
 ## Key Gotchas
 
